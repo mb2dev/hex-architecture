@@ -1,0 +1,15 @@
+hex\Domain\Catalog\Entity\Product:
+  type: entity
+  table: products
+  id:
+    id:
+      type: string
+  fields:
+    name:
+      type: string
+      length: 255
+    description:
+      type: string
+      length: 255
+    price:
+      type: float

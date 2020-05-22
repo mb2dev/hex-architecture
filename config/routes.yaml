@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+index:
+  path: /api/products
+  methods: POST
+  controller: App\UI\Controller\Catalog\CreateProductController
+
+index2:
+  path: /api/products/{id}
+  methods: GET
+  controller: App\UI\Controller\Catalog\FindByIdProductController
